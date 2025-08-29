@@ -1,0 +1,14 @@
+gcp:
+  project: jason-hsbc
+  region: europe-west2
+
+
+
+modeling:
+  model1:
+    table1: DS1.tb_model1_house_price
+
+fastapi:
+  port: 8080
+  host: 0.0.0.0
+  root_path: /acc-excel-svc
